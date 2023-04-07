@@ -372,6 +372,7 @@ margin-bottom: 8px; ;
 
 .team-soc-link:hover,:focus{
    box-shadow: 0 10px 15px navy;
+   background-color: #404BBF;
 }
 
 

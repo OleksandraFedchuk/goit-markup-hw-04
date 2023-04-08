@@ -383,7 +383,7 @@ padding-bottom: 120px;
 }  
 
 .customers-container{
-    max-width: 1440;
+    max-width: 1440px;
     height: 200px;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -405,13 +405,16 @@ padding-bottom: 120px;
 
 }
 .customers-item {
-    background-color: #4D5AE5;
+border: 1px solid #8E8F99;
+border-radius: 4px;
+
 }
 .customers-link {
     width:168px ;
     height: 88px;
     display: flex;
     gap: 24px;
+    
 }
 
 /*  -----------Footer ----------- */

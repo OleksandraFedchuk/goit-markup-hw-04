@@ -384,7 +384,7 @@ padding-bottom: 120px;
 
 .customers-container{
     max-width: 1440px;
-    height: 200px;
+    /* height: 200px; */
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -414,6 +414,8 @@ border-radius: 4px;
     height: 88px;
     display: flex;
     gap: 24px;
+    justify-content: center;
+    align-items: center;
 
 }
 .icon-customers{
@@ -423,6 +425,7 @@ border-radius: 4px;
 /*  -----------Footer ----------- */
 
 .container-footer{
+    display: flex;
 
 }
 
@@ -451,6 +454,32 @@ border-radius: 4px;
 .main-logo-studio-footer {
      color: var(--forth-title-color);
     
+}
+
+.footer-socialmedia {
+    margin-left: 120px;
+}
+
+.socialmedia-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+
+
+}
+.socialmedia-list {
+    display: flex;
+    gap: 16px; ;
+}
+.list {
+}
+.team-soc-item {
+}
+.team-soc-link {
+}
+.link {
 }
 
  /* ----------------PAGE POTFOLIO --------------------  */

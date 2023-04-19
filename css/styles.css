@@ -146,8 +146,7 @@ letter-spacing: 0.02em;
 color: var(--second-title-color);
 }
 
-.header-link:is(:hover, :focus) {
-
+.header-link:is(:hover,:focus) {
 color: #404bbf;
 }
 
@@ -385,7 +384,7 @@ margin-bottom: 8px; ;
     justify-content: center;
 }
 
-.team-soc-link:hover, :focus{
+.team-soc-link:is(:hover, :focus){
    background-color: #404BBF;
 }
 
@@ -441,7 +440,7 @@ border-radius: 4px;
 
 }
 
-.customers-link:hover, :focus {
+.customers-link:is(:hover, :focus) {
     border-color: #404bbf;
     color: #404bbf;
 }
@@ -462,7 +461,7 @@ border-radius: 4px;
     background-color: var(--second-title-color);
     padding-top: 100px;
     padding-bottom: 100px;
-    /* justify-content: start; */
+    
 }
 
 .footer-logo {
@@ -513,17 +512,12 @@ border-radius: 4px;
     gap: 16px; ;
 }
 
-.different:hover, :focus{
+.different:is(:hover, :focus){
     background-color: #31d0aa; 
 }
-.list {
-}
-.team-soc-item {
-}
-.team-soc-link {
-}
-.link {
-}
+
+
+
 
  /* ----------------PAGE POTFOLIO --------------------  */
 

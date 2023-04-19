@@ -64,7 +64,7 @@ letter-spacing: 0.02em;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 1px solid #404bbf;
+    /* outline: 1px solid #404bbf; */
 }
 .container-header {
     display: flex;
@@ -183,7 +183,7 @@ align-content: center;
     color: var(--third-title-color);
 }
 
-tel.link:is(:hover, :focus) {
+.tel-link:is(:hover, :focus) {
     color: #404bbf;
 }
 
@@ -251,26 +251,17 @@ padding-bottom: 120px;
 
 }
 
-
-.strategy-icons {
-}
-.strategy-icons-list {
-display: flex;
-
-}
-
-.strategy-icons-item {
-    background-color: var(--forth-title-color);
-    
-}
-.strategy-link {
-    
+.icons-container{
+    width: 264px;
+    height: 112px;
+    background: var(--forth-title-color);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
 }
 
-.strategy-content {
-}
-
-/* oooooooooooooooooooooold */
 .strategy-list-content {
     display: flex;
     gap:24px;
@@ -352,6 +343,7 @@ color: #434455;
     background-color: #FFFFFF;
     width: calc((100% - 48px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-members-item-title {
 font-weight: 500;
@@ -389,8 +381,7 @@ margin-bottom: 8px; ;
     justify-content: center;
 }
 
-.team-soc-link:hover,:focus{
-   box-shadow: 0 10px 15px navy;
+.team-soc-link:hover, :focus{
    background-color: #404BBF;
 }
 
@@ -486,6 +477,7 @@ border-radius: 4px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-title-color);
+    margin-bottom: 16px;
 
 
 }
@@ -546,7 +538,9 @@ border-radius: 4px;
 .btn:is(:hover, :focus) {
     color: #fffffF;
     background-color:  #404BBF;
-    border-color: transparent;
+    border-color: transparent;box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    
+
 }
 
 /* ------------------Full list of advantages--------------- */
@@ -566,6 +560,10 @@ border-radius: 4px;
 }
 .possibilities-item {
 max-width: calc((100% - 48px) / 3);
+}
+
+.possibilities-item:hover, :focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .possibilities-item-link{
 display: block;
